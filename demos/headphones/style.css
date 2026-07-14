@@ -1,0 +1,18 @@
+    body {
+      margin: 0;
+      background: #797273 ; /*make the headphone images pngs for more control*/
+    }
+
+    /* this tall container is what creates "room" to scroll through */
+    .scroll-container {
+      height: 400vh;
+      position: relative;
+    }
+
+    canvas {
+      position: sticky;
+      top: 0;
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+    }

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Elshokhaby | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <header class="top-bar">
+            <div class="brand">
+                <span class="brand-text">Mohamed Elshokhaby</span>
+            </div>
+
+            <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false"
+                aria-controls="main-nav">
+                <span class="nav-toggle-bar"></span>
+            </button>
+
+            <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+                <ul class="nav-links">
+                    <li><a href="#overview" class="nav-item" data-view-link="overview">Overview</a></li>
+                    <li><a href="#3d-models" class="nav-item" data-view-link="3d-models">3D Models</a></li>
+                    <li><a href="#demos" class="nav-item" data-view-link="demos">Demos</a></li>
+                    <li><a href="#threejs" class="nav-item" data-view-link="threejs">Three.js</a></li>
+                    <li><a href="#contact" class="nav-item" data-view-link="contact">Get in Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="viewport-content">
+
+            <!-- ================= OVERVIEW ================= -->
+            <section class="section-container" data-view="overview">
+                <div class="profile-module">
+                    <div class="profile-frame">
+                        <img src="Photos/Personal_Photo.png" alt="Mohamed Elshokhaby" class="profile-img">
+                    </div>
+                    <div class="profile-info">
+                        <h1>Hi, I'm Mohamed</h1>
+                        <p class="lead-text">Full-Stack Web Developer & 3D Technical Artist</p>
+                        <p class="about-text">
+                            I have experience in full-stack web development, building applications from the user
+                            interface down to the back-end logic using PHP, JavaScript, HTML/CSS, MySQL, and CMS.
+                            Alongside this, I have a solid background in real-time 3D computer graphics using Unity and
+                            Blender, which I apply to develop interactive web interfaces and optimize graphic
+                            performance. Currently, I am expanding my skills with Three.js to bring 3D interactivity
+                            directly to the web. I am accustomed to working autonomously, quickly learning new
+                            technology stacks, and solving technical problems independently.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="snippets-section">
+                    <h2 class="section-title">What I Do</h2>
+                    <div class="spec-grid">
+                        <!-- The CSS will handle the hover animations for these cards -->
+                        <div class="spec-card">
+                            <h3>Web Development</h3>
+                            <p>Developing full-stack web applications with XAMPP, PHP, and MySQL for data management and
+                                consultation.</p>
+                        </div>
+                        <div class="spec-card">
+                            <h3>3D & Interactive</h3>
+                            <p>Building real-time 3D applications, handling asset pipelines between Blender and Unity,
+                                and developing interactive features.</p>
+                        </div>
+                        <div class="spec-card">
+                            <h3>Industrial Communications</h3>
+                            <p>Developing solutions based on Modbus RTU/TCP protocols, processing binary/hexadecimal
+                                data for telemetry transmission.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ================= 3D MODELS ================= -->
+            <section class="section-container" data-view="3d-models">
+                <div class="embed-window-fixed">
+                    <iframe class="embed-frame-fixed" src="https://mohamedelshokhaby.artstation.com/"
+                        title="ArtStation portfolio" allowfullscreen></iframe>
+                </div>
+            </section>
+
+            <!-- ================= DEMOS (Grid View) ================= -->
+            <section class="section-container" data-view="demos">
+                <div class="page-header">
+                    <h1>Project Demos</h1>
+                    <p class="section-desc">Interactive showcases and functional prototypes.</p>
+                </div>
+
+                <div class="demo-grid">
+                    <!-- WebGL Demo Card -->
+                    <a href="#demo-webgl" class="demo-card">
+                        <div class="demo-card-image">
+                            <!-- You can replace this div with an actual <img> tag later -->
+                            <div class="img-placeholder">WebGL 3D Gallery</div>
+                        </div>
+                        <div class="demo-card-content">
+                            <h3>Interactive 3D Gallery</h3>
+                            <p>An immersive environment developed in Unity where visitors can explore projects in a
+                                real-time 3D space.</p>
+                        </div>
+                    </a>
+
+                    <!-- testing -->
+                    <a href="demos/headphones/index.html" class="demo-card">
+                        <div class="demo-card-image">
+                            <div class="img-placeholder">Scrollable headphone animation</div>
+                        </div>
+                        <div class="demo-card-content">
+                            <h3>Scrollable headphone animation</h3>
+                            <p>An apple inspired animation made from the ground up to test scrolling with animations</p>
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+            <!-- ================= SINGLE DEMO VIEW: WebGL ================= -->
+            <section data-view="demo-webgl" class="viewport-section">
+                <div class="page-header">
+                    <a href="#demos" class="back-btn">&larr; Back to Demos</a>
+                    <h1>Interactive 3D Gallery (WebGL)</h1>
+                </div>
+
+                <div class="demo-project">
+                    <div class="embed-container">
+                        <iframe class="embed-frame-demo" src="https://itch.io/embed-upload/18204892?color=ffffff"
+                            title="Portfolio overview on itch.io" allowfullscreen>
+                            <a href="https://mohamedelshokhaby003.itch.io/portofolio">Play Portfolio overview on
+                                itch.io</a>
+                        </iframe>
+                    </div>
+                    <div class="demo-description">
+                        <p>This interactive 3D gallery serves as a centralized showcase of the key projects I have
+                            developed throughout my career. Rather than presenting a conventional portfolio of images or
+                            documents, it provides an immersive environment where visitors can explore each project
+                            within a real-time 3D space.</p>
+
+                        <p>Each exhibition represents a different project and can be inspected in detail to examine its
+                            architecture, development process, implementation, and the technologies involved. Selected
+                            exhibits also function as interactive portals, granting access to fully explorable
+                            environments that demonstrate the projects in operation and provide a hands-on understanding
+                            of their functionality.</p>
+
+                        <p>The gallery was developed in Unity and deployed for the web using WebGL, making it directly
+                            accessible through a standard browser without requiring additional software. Beyond
+                            showcasing software engineering expertise, the project demonstrates proficiency in 3D
+                            modeling, environment design, user interface development, lighting, rendering optimization,
+                            and user experience design.</p>
+
+                        <p>This project represents the convergence of software engineering and interactive digital
+                            design, creating a continuously evolving platform that expands over time with new projects,
+                            technical experiments, and innovative ideas.</p>
+
+                        <div class="controls-box">
+                            <h3>Controls:</h3>
+                            <ul>
+                                <li><strong>W A S D</strong> to Move</li>
+                                <li><strong>Mouse</strong> to Look Around</li>
+                                <li><strong>E</strong> to Inspect Exhibit</li>
+                                <li><strong>Hold LMB</strong> to Rotate Exhibit</li>
+                                <li><strong>Q</strong> Return</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ================= THREE.JS ================= -->
+            <section class="section-container" data-view="threejs">
+                <div class="coming-soon-module">
+                    <h1>Three.js Projects</h1>
+                    <p class="lead-text">Coming soon.</p>
+                </div>
+            </section>
+
+            <!-- ================= GET IN CONTACT ================= -->
+            <section class="section-container" data-view="contact">
+                <div class="page-header">
+                    <h1>Get in Contact</h1>
+                    <p class="section-desc">Have a question or want to work together? Leave a message below.</p>
+                </div>
+
+                <div class="contact-form-container">
+                    <form action="process-data.php" method="POST" class="standard-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="name@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="How can I help you?"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Send Message</button>
+                        <p class="form-status" role="status" aria-live="polite"></p>
+                    </form>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
